@@ -1,0 +1,255 @@
+   PID TTY      STAT   TIME COMMAND
+     1 ?        Ss     0:01 /sbin/init
+     2 ?        S      0:00 [kthreadd]
+     3 ?        S      0:06 [ksoftirqd/0]
+     5 ?        S<     0:00 [kworker/0:0H]
+     7 ?        S      0:29 [rcu_sched]
+     8 ?        S      0:00 [rcu_bh]
+     9 ?        S      0:00 [migration/0]
+    10 ?        S      0:00 [watchdog/0]
+    11 ?        S      0:00 [kdevtmpfs]
+    12 ?        S<     0:00 [netns]
+    13 ?        S<     0:00 [perf]
+    14 ?        S      0:00 [khungtaskd]
+    15 ?        S<     0:00 [writeback]
+    16 ?        SN     0:00 [ksmd]
+    17 ?        SN     0:00 [khugepaged]
+    18 ?        S<     0:00 [crypto]
+    19 ?        S<     0:00 [kintegrityd]
+    20 ?        S<     0:00 [bioset]
+    21 ?        S<     0:00 [kblockd]
+    22 ?        S<     0:00 [ata_sff]
+    23 ?        S<     0:00 [md]
+    24 ?        S<     0:00 [devfreq_wq]
+    28 ?        S      0:00 [kswapd0]
+    29 ?        S<     0:00 [vmstat]
+    30 ?        S      0:00 [fsnotify_mark]
+    31 ?        S      0:00 [ecryptfs-kthrea]
+    47 ?        S<     0:00 [kthrotld]
+    48 ?        S<     0:00 [acpi_thermal_pm]
+    49 ?        S<     0:00 [bioset]
+    50 ?        S<     0:00 [bioset]
+    51 ?        S<     0:00 [bioset]
+    52 ?        S<     0:00 [bioset]
+    53 ?        S<     0:00 [bioset]
+    54 ?        S<     0:00 [bioset]
+    55 ?        S<     0:00 [bioset]
+    56 ?        S<     0:00 [bioset]
+    57 ?        S      0:00 [scsi_eh_0]
+    58 ?        S<     0:00 [scsi_tmf_0]
+    59 ?        S      0:00 [scsi_eh_1]
+    60 ?        S<     0:00 [scsi_tmf_1]
+    66 ?        S<     0:00 [ipv6_addrconf]
+    80 ?        S<     0:00 [deferwq]
+    81 ?        S<     0:00 [charger_manager]
+   137 ?        S<     0:00 [mpt_poll_0]
+   138 ?        S<     0:00 [mpt/0]
+   139 ?        S<     0:00 [kpsmoused]
+   140 ?        S      0:00 [scsi_eh_2]
+   141 ?        S<     0:00 [scsi_tmf_2]
+   142 ?        S      0:00 [scsi_eh_3]
+   143 ?        S<     0:00 [scsi_tmf_3]
+   144 ?        S      0:00 [scsi_eh_4]
+   145 ?        S<     0:00 [scsi_tmf_4]
+   146 ?        S      0:00 [scsi_eh_5]
+   147 ?        S<     0:00 [scsi_tmf_5]
+   148 ?        S      0:00 [scsi_eh_6]
+   149 ?        S<     0:00 [scsi_tmf_6]
+   150 ?        S      0:00 [scsi_eh_7]
+   151 ?        S<     0:00 [scsi_tmf_7]
+   152 ?        S      0:00 [scsi_eh_8]
+   153 ?        S<     0:00 [scsi_tmf_8]
+   154 ?        S      0:00 [scsi_eh_9]
+   155 ?        S<     0:00 [scsi_tmf_9]
+   156 ?        S      0:00 [scsi_eh_10]
+   157 ?        S<     0:00 [scsi_tmf_10]
+   158 ?        S      0:00 [scsi_eh_11]
+   159 ?        S<     0:00 [scsi_tmf_11]
+   160 ?        S      0:00 [scsi_eh_12]
+   161 ?        S<     0:00 [scsi_tmf_12]
+   162 ?        S      0:00 [scsi_eh_13]
+   163 ?        S<     0:00 [scsi_tmf_13]
+   164 ?        S      0:00 [scsi_eh_14]
+   165 ?        S<     0:00 [scsi_tmf_14]
+   166 ?        S      0:00 [scsi_eh_15]
+   167 ?        S<     0:00 [scsi_tmf_15]
+   168 ?        S      0:00 [scsi_eh_16]
+   169 ?        S<     0:00 [scsi_tmf_16]
+   170 ?        S      0:00 [scsi_eh_17]
+   171 ?        S<     0:00 [scsi_tmf_17]
+   172 ?        S      0:00 [scsi_eh_18]
+   173 ?        S<     0:00 [scsi_tmf_18]
+   174 ?        S      0:00 [scsi_eh_19]
+   175 ?        S<     0:00 [scsi_tmf_19]
+   176 ?        S      0:00 [scsi_eh_20]
+   177 ?        S<     0:00 [scsi_tmf_20]
+   178 ?        S      0:00 [scsi_eh_21]
+   179 ?        S<     0:00 [scsi_tmf_21]
+   180 ?        S      0:00 [scsi_eh_22]
+   181 ?        S<     0:00 [scsi_tmf_22]
+   182 ?        S      0:00 [scsi_eh_23]
+   183 ?        S<     0:00 [scsi_tmf_23]
+   184 ?        S      0:00 [scsi_eh_24]
+   185 ?        S<     0:00 [scsi_tmf_24]
+   186 ?        S      0:00 [scsi_eh_25]
+   187 ?        S<     0:00 [scsi_tmf_25]
+   188 ?        S      0:00 [scsi_eh_26]
+   189 ?        S<     0:00 [scsi_tmf_26]
+   190 ?        S      0:00 [scsi_eh_27]
+   191 ?        S<     0:00 [scsi_tmf_27]
+   192 ?        S      0:00 [scsi_eh_28]
+   193 ?        S<     0:00 [scsi_tmf_28]
+   194 ?        S      0:00 [scsi_eh_29]
+   195 ?        S<     0:00 [scsi_tmf_29]
+   196 ?        S      0:00 [scsi_eh_30]
+   197 ?        S<     0:00 [scsi_tmf_30]
+   198 ?        S      0:00 [scsi_eh_31]
+   199 ?        S<     0:00 [scsi_tmf_31]
+   227 ?        S      0:00 [scsi_eh_32]
+   228 ?        S<     0:00 [scsi_tmf_32]
+   229 ?        S<     0:00 [bioset]
+   247 ?        S<     0:00 [bioset]
+   260 ?        S      0:06 [jbd2/sda1-8]
+   261 ?        S<     0:00 [ext4-rsv-conver]
+   293 ?        S<     0:00 [kworker/0:1H]
+   384 ?        S      0:00 upstart-udev-bridge --daemon
+   389 ?        Ss     0:00 /lib/systemd/systemd-udevd --daemon
+   483 ?        Ss     0:01 dbus-daemon --system --fork
+   533 ?        Ss     0:00 /lib/systemd/systemd-logind
+   536 ?        Ss     0:00 /usr/sbin/bluetoothd
+   550 ?        S<     0:00 [krfcommd]
+   553 ?        Ssl    0:00 rsyslogd
+   557 ?        S      0:05 avahi-daemon: running [wangfangliang-virtual-machine.local]
+   558 ?        S      0:00 avahi-daemon: chroot helper
+   594 ?        S      0:00 upstart-file-bridge --daemon
+   656 ?        S<     0:00 [ttm_swap]
+   800 ?        Ssl    0:00 /usr/sbin/ModemManager
+   874 ?        Ssl    0:10 NetworkManager
+   905 ?        Sl     0:00 /usr/lib/policykit-1/polkitd --no-debug
+   907 ?        S      0:00 upstart-socket-bridge --daemon
+  1013 tty4     Ss+    0:00 /sbin/getty -8 38400 tty4
+  1018 tty5     Ss+    0:00 /sbin/getty -8 38400 tty5
+  1025 tty2     Ss+    0:00 /sbin/getty -8 38400 tty2
+  1026 tty3     Ss+    0:00 /sbin/getty -8 38400 tty3
+  1029 tty6     Ss+    0:00 /sbin/getty -8 38400 tty6
+  1084 ?        Ss     0:00 cron
+  1087 ?        Ss     0:01 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+  1111 ?        Ssl    0:00 lightdm
+  1124 ?        Sl     0:00 /usr/lib/accountsservice/accounts-daemon
+  1134 ?        Ss     0:00 /usr/sbin/cups-browsed
+  1136 ?        Ssl    0:00 whoopsie
+  1148 ?        Ss     0:01 /usr/sbin/kerneloops
+  1201 tty1     Ss+    0:00 /sbin/getty -8 38400 tty1
+  1212 tty7     Ss+    9:03 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  1309 ?        Sl     0:00 lightdm --session-child 12 15
+  1314 ?        S      0:00 [kauditd]
+  1319 ?        Ss     0:02 init --user
+  1411 ?        Ss     0:14 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-kvQnAlO6qH
+  1412 ?        Ss     0:00 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+  1423 ?        Ss     0:00 upstart-event-bridge
+  1432 ?        Ss     0:01 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+  1433 ?        Ssl    1:04 /usr/bin/ibus-daemon --daemonize --xim
+  1442 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+  1446 ?        SLl    0:02 gnome-keyring-daemon --start --components pkcs11,secrets
+  1453 ?        S      0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+  1454 ?        S      0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+  1455 ?        S      0:00 upstart-file-bridge --daemon --user
+  1461 ?        S      0:04 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+  1475 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+  1483 ?        Sl     0:00 /usr/lib/ibus/ibus-dconf
+  1484 ?        Rl     1:11 /usr/lib/ibus/ibus-ui-gtk3
+  1494 ?        Ssl    0:03 /usr/lib/unity-settings-daemon/unity-settings-daemon
+  1498 ?        Sl     0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+  1504 ?        Ssl    0:47 /usr/lib/x86_64-linux-gnu/hud/hud-service
+  1512 ?        Ssl    0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+  1513 ?        Ssl    0:01 gnome-session --session=ubuntu
+  1518 ?        Ssl    2:46 /usr/lib/unity/unity-panel-service
+  1522 ?        S      0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+  1546 ?        Sl     0:10 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+  1600 ?        Sl     0:01 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+  1687 ?        Sl     0:00 /usr/lib/upower/upowerd
+  1719 ?        Sl     0:08 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+  1723 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+  1728 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+  1731 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+  1732 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+  1736 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+  1737 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+  1740 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+  1745 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+  1789 ?        Sl     0:01 /usr/bin/pulseaudio --start --log-target=syslog
+  1800 ?        Sl     0:00 /usr/lib/evolution/evolution-source-registry
+  1802 ?        SNl    0:06 /usr/lib/rtkit/rtkit-daemon
+  1825 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
+  1847 ?        Sl     0:00 /usr/lib//ibus/ibus-engine-sunpinyin --ibus
+  1886 ?        Sl     0:02 /usr/lib/x86_64-linux-gnu/notify-osd
+  1898 ?        Rl    11:17 compiz
+  2046 ?        Sl     0:00 /usr/lib/colord/colord
+  2048 ?        Sl     0:00 /usr/lib/dconf/dconf-service
+  2056 ?        Sl     0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+  2062 ?        Sl     0:01 nm-applet
+  2069 ?        Sl     0:35 /usr/lib/ibus/ibus-engine-pinyin --ibus
+  2072 ?        Sl     0:18 nautilus -n
+  2082 ?        Sl     0:00 /usr/lib/evolution/evolution-calendar-factory
+  2083 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+  2102 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+  2105 ?        Sl     0:00 /usr/lib/udisks2/udisksd --no-debug
+  2119 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+  2123 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+  2130 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+  2145 ?        S      0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+  2180 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+  2204 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+  3317 ?        Sl     0:00 telepathy-indicator
+  3327 ?        Sl     0:00 /usr/lib/telepathy/mission-control-5
+  3851 ?        Ss     0:00 /usr/sbin/cupsd -f
+  4139 ?        Sl     0:00 zeitgeist-datahub
+  4163 ?        Sl     0:00 /usr/bin/zeitgeist-daemon
+  4212 ?        Sl     0:02 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+  4270 ?        S      0:00 /bin/cat
+ 10074 ?        Ssl    0:00 /usr/bin/vmhgfs-fuse -o subtype=vmhgfs-fuse,allow_other /mnt/hgfs
+ 10100 ?        Ssl    0:00 /usr/sbin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+ 10108 ?        S      1:29 /usr/lib/vmware-tools/sbin64/vmtoolsd -n vmusr --blockFd 3
+ 10131 ?        Sl     1:21 /usr/sbin/vmtoolsd
+ 10168 ?        S      0:00 /usr/lib/vmware-vgauth/VGAuthService -s
+ 10246 ?        Sl     0:23 /usr/lib/vmware-caf/pme/bin/ManagementAgentHost
+ 10260 ?        Sl     0:00 update-notifier
+ 10311 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+ 10326 ?        Sl     0:01 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+ 10340 ?        Sl     0:02 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ 10341 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+ 11655 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/unity-lens-music/unity-music-daemon
+ 12121 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+ 17485 ?        Rl     0:05 gnome-terminal
+ 17492 ?        S      0:00 gnome-pty-helper
+ 17493 pts/0    Ss+    0:00 bash
+ 20005 ?        S      0:01 [kworker/u256:0]
+ 20816 ?        S      0:00 [kworker/0:2]
+ 20836 ?        S      0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-4d5beffd-c71c-4d18-8c83-4f715bbf87a0-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+ 20838 ?        S<     0:00 [kworker/u257:0]
+ 20839 ?        S<     0:00 [hci0]
+ 20840 ?        S<     0:00 [hci0]
+ 20842 ?        S<     0:00 [kworker/u257:1]
+ 20965 ?        S      0:00 [kworker/u256:1]
+ 20983 ?        Sl     0:09 /usr/share/code/code --no-sandbox --unity-launch
+ 20986 ?        S      0:00 /usr/share/code/code --type=zygote --no-sandbox
+ 21010 ?        Sl     0:21 /usr/share/code/code --type=gpu-process --field-trial-handle=3268913566128373500,5944659108762308402,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=5382939987299397678
+ 21022 ?        Sl     0:00 /usr/share/code/code --type=utility --field-trial-handle=3268913566128373500,5944659108762308402,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=zh-CN --service-sandbox-type=network --no-sandbox --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --service-request-channel-token=11973809592553810822 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 21074 ?        Sl     0:01 /proc/self/exe --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=3268913566128373500,5944659108762308402,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=zh-CN --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=1 --service-request-channel-token=11885100231301895027 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 21195 ?        RLl    0:57 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=3268913566128373500,5944659108762308402,131072 --disable-features=LayoutNG,PictureInPicture,SpareRendererForSitePerProcess --lang=zh-CN --standard-schemes --secure-schemes=vscode-resource --bypasscsp-schemes --cors-schemes=vscode-resource --fetch-schemes=vscode-resource --service-worker-schemes --app-path=/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --background-color=#1e1e1e --num-raster-threads=1 --service-request-channel-token=12188976850556748045 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+ 21212 ?        Sl     0:07 /usr/share/code/code --inspect-port=0 /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+ 21225 pts/4    Ss+    0:00 /bin/bash
+ 21241 ?        Rl     0:00 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+ 21271 ?        Sl     0:01 /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/bin/cpptools
+ 21313 ?        Sl     0:00 /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/bin/cpptools-srv 21271 1
+ 21331 ?        S      0:00 [kworker/0:1]
+ 21444 ?        Sl     0:00 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=searchService
+ 21466 ?        S      0:00 bash /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/debugAdapters/OpenDebugAD7
+ 21472 ?        Sl     0:02 /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/debugAdapters/mono.linux-x86_64 --config /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/debugAdapters/framework/config.linux /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/debugAdapters/bin/OpenDebugAD7.exe
+ 21484 pts/11   Ss     0:00 /bin/bash
+ 21497 pts/11   S+     0:00 /bin/sh /tmp/Microsoft-MIEngine-Cmd-mg58mdou.5yq
+ 21499 pts/11   S      0:00 /usr/bin/gdb --interpreter=mi --tty=/dev/pts/11
+ 21504 ?        ts     0:00 /home/wangfangliang/cpp/Linux_basic/系统函数/bin/WIFEX.debug.out
+ 21564 ?        Sl     0:00 /home/wangfangliang/.vscode/extensions/ms-vscode.cpptools-0.28.2/bin/cpptools-srv 21271 4
+ 21594 pts/15   Ss+    0:00 bash -c "/home/wangfangliang/cpp/Linux_basic/系统函数/"/bin/dup2.out;echo;echo 按任意键继续;read
+ 21595 pts/15   R+     0:00 ps ax
